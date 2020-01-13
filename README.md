@@ -6,7 +6,7 @@
 
 ## Description
 
-This is an application where the user is able to see the posted quotes,upvote or downvote the quote and also able to add their new quotes
+This is an application where the user is able to see the posted quotes,upvote or downvote the quote and also able to add their new quotes and check the most liked quote
 
 ## Setup/Installation Requirements
 
