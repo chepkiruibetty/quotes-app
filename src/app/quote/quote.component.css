@@ -14,7 +14,7 @@
     }
     footer {
       height: 20vh;
-      background-color:aliceblue;
+      background-color:bisque;
       color: black;
       font-weight: bold;
       margin-top:10px;
@@ -29,7 +29,7 @@
     
     .link:hover {
       text-decoration: none;
-      color: green;
+      color: tomato;
     }
     .mybtn {
       font-size: 25px;
