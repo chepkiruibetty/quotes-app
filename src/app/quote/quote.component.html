@@ -12,7 +12,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <p *ngIf='quotes.length > 0'><button (click)='findHighestVotes()' class="btn btn-outline-info">Check the Best quote</button>
+                <p *ngIf='quotes.length > 0'><button (click)='findHighestVotes()' class="btn btn-outline-info">Check the
+                        Best quote</button>
                 </p>
                 <div *ngIf='bestQuote && quotes.length > 0' appHighlightBestQuote>
                     <div>
@@ -43,12 +44,13 @@
                                     </a>
                                     <span class="m-4">{{ quote.dislikeCounter }}</span>
                                 </div>
-                                
+
                             </div>
                             &nbsp;
-                            <button (click)='toggleDetails(i)' class="btn btn-outline-info">Check Author or Delete</button>
+                            <button (click)='toggleDetails(i)' class="btn btn-outline-info">Check Author or
+                                Delete</button>
                         </div>
-                    
+
                         <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'
                             (isComplete)='deleteQuote($event,i)'>
                         </app-quote-detail>
