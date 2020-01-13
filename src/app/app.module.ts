@@ -20,7 +20,7 @@ import { HighlightBestQuoteDirective } from './highlight-best-quote.directive';
     StrikethroughDirective,
     TimeAgoPipe,
     QuoteFormComponent,
-    HighlightBestQu,
+    HighlightBestQuoteDirective,
 
   ],
   imports: [
