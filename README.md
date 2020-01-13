@@ -17,7 +17,10 @@ This is an application where the user is able to see the posted quotes,upvote or
 
 ## Deployed link
 
-- 
+-https://chepkiruibetty.github.io/quotes-app/
+
+
+
 
 ## Codebeat
 
