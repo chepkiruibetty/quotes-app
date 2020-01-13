@@ -10,10 +10,6 @@ export class QuoteComponent implements OnInit {
   quotes:Quote[] = [
   new Quote (1,'You gotta dance like there is no one watching', 'Author:Rodgers',new Date(2020,1,10),0,0),
   new Quote (2,'Don’t Let Yesterday Take Up Too Much Of Today', 'Author:Whitney White',new Date(2020,1,10),0,0),
-  // new Quote (3,'It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.', 'Author:Lenny Bold',new Date(2020,1,10)),
-  // new Quote (4,'We May Encounter Many Defeats But We Must Not Be Defeated', 'Author:Lerroy sane',new Date(2020,1,10)),
-  // new Quote(5,'Imagine Your Life Is Perfect In Every Respect', 'Author:Kun Aquero',new Date(2020,1,10)),
-  // new Quote(6,'We Generate Fears While We Sit', 'Author:pep Quordiola',new Date(2020,1,10)),
   ];
   toggleDetails(index) {
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
